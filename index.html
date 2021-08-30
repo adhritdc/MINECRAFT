@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>C85</title>
+
+<link rel=icon href=favicon.ico sizes="16x16" type="image/png">
+
+<link rel="stylesheet" href="style.css">
+
+<script src="fabric.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+<body class="body_background">
+
+	<center>
+		<div class="modal fade" id="Controls">
+			<div class="modal-dialog">
+			  <!-- Modal content-->
+			  <div class="modal-content" >
+				<div class="modal-header">
+				  <button type="button" class="close" data-dismiss="modal">&times;</button>
+				  <h2 class="modal-title">Controls of the game :-</h2>
+				</div>
+				
+				<div class="modal-body">
+				    <h3>Player controls :-</h3>
+				    <p> Up = UP arrow</p>
+					<p> Down = DOWN arrow</p>
+					<p> Left = LEFT arrow </p>
+					<p> Right = RIGHT arrow</p>
+
+				    <h3>Block placing controls :-</h3>
+				    <p>Brick = B/b</p>
+				    <p>Netherite = N/n</p>
+					<p>Light on = L/l</p>
+					<p>Oak wood = O/o</p>
+					<p>Grass = G/g</p>
+					<p>Oak wooden plank = P/p</p>
+					<p>Arica wooden plank = D/d</p>
+					<p>Dark oak wooden plank = D/d</p>
+				</div>
+			  </div>
+			</div>
+		  </div>
+
+	<h2 class="btn-primary">MINECRAFT</h2>
+
+	<div id="head_info" class="btn-danger">
+		<h3>Current Width  = <span id="IamOpeningAspanTagForCurrentWidth">30</span></h3>
+		<h3>Current Height  = <span id="IamOpeningAspanTagForCurrentWidth">30</span></h3>
+	</div>
+	<button class ="btn-danger" data-toggle="modal"  data-target="#Controls">Controls</button>
+	<br>
+<canvas id="myCanvas" width="1000" height="800"></canvas>
+	</center>
+	<script src="main.js"></script>
+</body>
+</html>
